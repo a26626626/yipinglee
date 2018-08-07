@@ -768,12 +768,12 @@ label.error {
 /*燈箱圖片位址跟大小*/
 .fancybox-next span {
     background-image: url(img/right.png);
-    background-size: 60px;
+    background-size: 37px;
 }
 
 .fancybox-prev span{
     background-image: url(img/left.png);
-    background-size: 60px;
+    background-size: 37px;
 }
 
 .fancybox-close{
