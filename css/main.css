@@ -409,13 +409,13 @@ top: -8px;
 		    transform: rotateY(0deg) scale(1,1);*/
 }
 
-.work-item .overlay a {
+/*.work-item .overlay a {
   border: 1px solid #fff;
   border-radius: 50%;
   display: inline-block;
   margin-top: 20%;
   padding: 7px 10px;
-}
+}*/
 
 .work-item .overlay a:hover {
   color: #fff;
@@ -779,6 +779,7 @@ label.error {
 .fancybox-close{
   background-image: url(img/close.png);
   background-size: 40px;
+  top: -10px;
 }
 
 .download{
