@@ -4,45 +4,44 @@
 /* =================================== */
 
 body {
-    background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 21px;
-	font-size: 13px;
-    color: #6a737b;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 21px;
+  font-size: 13px;
+  color: #6a737b;
 }
 
 ol, ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 figure, p {
-    margin: 0;
+  
 }
 
 a {
-    color: #dcdddd;
-	
-    -webkit-transition: all .3s ease-in 0s;
-       -moz-transition: all .3s ease-in 0s;
-        -ms-transition: all .3s ease-in 0s;
-         -o-transition: all .3s ease-in 0s;
-            transition: all .3s ease-in 0s;
+  color: #dedede;
+
+  -webkit-transition: all .3s ease-in 0s;
+     -moz-transition: all .3s ease-in 0s;
+      -ms-transition: all .3s ease-in 0s;
+       -o-transition: all .3s ease-in 0s;
+          transition: all .3s ease-in 0s;
 }
 
 iframe {
-    border: 0;
+  border: 0;
 }
 
 a, a:focus, a:hover {
-    text-decoration: none;
-    outline: 0;
+  text-decoration: none;
+  outline: 0;
 }
 
-/*滑鼠過去顏色*/
 a:focus, a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 h1, h2, h3,
@@ -53,16 +52,16 @@ h4, h5, h6 {
 
 .clear:before,
 .clear:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
  
 .clear:after {
-   clear: both;
+  clear: both;
 }
  
 .clear {
-   *zoom: 1;
+  *zoom: 1;
 }
 
 span.color {
@@ -168,8 +167,8 @@ body > section {
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
 	background-color: transparent;
-	border-top: 1px solid #b5b5b6;
-	color: #fff;
+	/*border-top: 1px solid #b5b5b6;
+	color: #fff;*/
 }
 
 
@@ -792,4 +791,14 @@ label.error {
 
 .service-desc img{
   margin: 0px 10px 10px; 
+}
+
+@media (max-width: 768px){
+  .navbar-brand {
+    padding: 20px 15px;
+  }
+  .navbar-toggle {
+    margin-top: 7px;
+    margin-bottom: 4px;
+  }
 }
