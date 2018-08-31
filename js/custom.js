@@ -29,8 +29,8 @@ $(document).ready(function(){
 			console.log('done scrolling');
 		}
 	});
-	/*改header顏色*/
-    $(window).scroll(function () {
+
+    $(window).scroll(function() {
         if ($(window).scrollTop() > 400) {
             $("#navigation").css("background-color","#b5b5b6");
         } else {
@@ -38,6 +38,11 @@ $(document).ready(function(){
         }
     });
 	
+	$('.nav').click(function() {
+		if($(window).width() <=768) {
+			$('.navbar-toggle').trigger('click');
+		}
+	});
 	/* ========================================================================= */
 	/*	Fix Slider Height
 	/* ========================================================================= */	
